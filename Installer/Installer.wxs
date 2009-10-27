@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="7e9db2a0-ce95-4424-a445-8044d26a5326" Name="GravurGIS"
+           Language="1031" Version="1.0.2" Manufacturer="timberNet" Codepage="1252"
+           UpgradeCode="b167f81c-cba5-47c7-831c-26bcae446608">
+    <Package InstallerVersion="200" Compressed="yes" Languages="1031" InstallPrivileges="elevated" />
+
+    <Upgrade Id="b167f81c-cba5-47c7-831c-26bcae446608">
+      <UpgradeVersion OnlyDetect='yes' Property='PATCHFOUND' IncludeMinimum='yes' Minimum='1.0.1' />
+    </Upgrade>
+
+    <!-- ================ -->
+    <!-- Launch Contitions-->
+    <!-- ================ -->
+    
+    <!-- We need to know where CeAppMgr.exe is located on the system -->
+    <Condition Message="Active Sync bzw. Windows Mobile Device Center (Windows Vista) muss installiert sein!">
+      SEARCH_CEAPPMGR
+    </Condition>
+    
+    <!-- Check if we have Win2k, WinXP or Vista -->
+    <Condition Message="Dieses Setup funktioniert momentan nur mit Windows 2000, Windows XP und Windows Vista">
+      VersionNT = 500 OR VersionNT = 501 OR VersionNT = 600
+    </Condition>
+
+    <!-- In Vista we need admin user rights for CeAppMgr.exe-->
+    <Condition Message="Bedingt durch die Nutzung des Microsoft CE Applikations-Managers müssen Sie dieses Setup mit Administrator-Rechten ausführen.">
+      Privileged OR NOT VersionNT = 600
+    </Condition>
+    
+
+    <!-- ==== -->
+    <!-- Data -->
+    <!-- ==== -->
+    
+    <Media Id="1" Cabinet="GravurGIS.cab" EmbedCab="yes" />
+
+    <!--Directory Structure-->
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="timberNetFolder" Name="timberNet">
+          <Directory Id="INSTALLLOCATION" Name="GravurGIS">
+            <!-- We only have one component since all three files are needed for installation - nothing should be legt out -->
+            <Component Id="CeInstallationFiles" Guid="7c04ba73-d0de-4b80-8160-d29a160d8382">
+              <File Id="GravurGIS.cab" Source="../GravurCAB/Release/GravurGIS.cab" Vital="yes" />
+              <File Id="Gravur.ico" Source="../Gravur/Icon.ico" />
+              <File Id="GravurGIS.ini" Source="GravurGIS.ini" Vital="yes" />
+            </Component>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <!--We can only offer one feature since install one whole componenent-->
+    <Feature Id="ProductFeature" Title="GravurGIS" Level="1" Description="Die komplette GravurGIS-Installation für .Net 3.5 / ARMV4">
+      <ComponentRef Id="CeInstallationFiles" />
+    </Feature>
+    
+
+    <!-- ======== -->
+    <!--Properties-->
+    <!-- ======== -->
+
+    <!--CeAppMgr.Exe Lookup-->
+    <Property Id='SEARCH_CEAPPMGR'>
+      <RegistrySearch Id="CeAppMgrSearch32" Root="HKLM" Type="raw"
+          Key="Software\Microsoft\Windows\CurrentVersion\App Paths\CEAPPMGR.EXE" Win64="no"/>
+    </Property>
+
+    
+    <!-- ============ -->
+    <!--Custom Actions-->
+    <!-- ============ -->
+
+    <!--Temporary Debug Message-->
+    <!--<CustomAction Id='showErrMsg' Error='"[INSTALLLOCATION]GravurGIS.ini"' />-->
+
+    <!-- define the LaunchCeAppMgr_Install-Custom action -->
+    <CustomAction Id='LaunchCeAppMgr_Install' Property='SEARCH_CEAPPMGR' ExeCommand='"[INSTALLLOCATION]GravurGIS.ini"' Return='ignore' Impersonate='no' Execute='deferred' />
+
+    <!-- define the LaunchCeAppMgr_Deinstall-Custom action - we just leave out the parameters -->
+    <CustomAction Id='LaunchCeAppMgr_Deinstall' Property='SEARCH_CEAPPMGR' ExeCommand='' Return='ignore' Impersonate='no' Execute='deferred' />
+
+    <!-- Schedule the custom actions-->
+    <InstallExecuteSequence>
+      <!-- Show Debug Mesg-->
+      <!--<Custom Action='showErrMsg' After='InstallFinalize' />-->
+
+      <!-- launch CeAppMgr.exe install only when we make an installation but not when we remove the product -->
+      <Custom Action='LaunchCeAppMgr_Install' Sequence='4400'>NOT Installed</Custom>
+
+      <!-- launch CeAppMgr.exe without ini parameter only when we remove the product -->
+      <Custom Action='LaunchCeAppMgr_Deinstall' Sequence='4401'>Installed</Custom>
+    </InstallExecuteSequence>
+
+
+    <!-- ============================= -->
+    <!-- Userinterface configiguration -->
+    <!-- ============================= -->
+
+    <!-- References-->
+    <UIRef Id="WixUI_InstallDir" />
+    <UIRef Id="WixUI_ErrorProgressText" />
+
+    <!--Userinterface properties-->
+    <Property Id="WIXUI_INSTALLDIR" Value='INSTALLLOCATION' />
+
+  </Product>
+</Wix>

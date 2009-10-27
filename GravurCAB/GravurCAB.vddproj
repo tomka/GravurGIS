@@ -1,0 +1,1861 @@
+"DeployProject"
+{
+"VSVersion" = "3:701"
+"ProjectType" = "8:{AB322303-2255-48EF-A496-5904EB18DA55}"
+"IsWebType" = "8:FALSE"
+"ProjectName" = "8:GravurCAB"
+"LanguageId" = "3:1033"
+"CodePage" = "3:1252"
+"SccProjectName" = "8:"
+"SccLocalPath" = "8:"
+"SccAuxPath" = "8:"
+"SccProvider" = "8:"
+    "Hierarchy"
+    {
+        "Entry"
+        {
+        "MsmKey" = "8:_0BF7A9E1EE83450DB9341DA242D90ED3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_110E303B0683491E87C109393E41AF58"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_173D873F6ED24B84AD89903970B085B1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1CAF11F6D11B4AD1BD627774B10C1C9A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1DAD0850357046550D2DE892755CA73E"
+        "OwnerKey" = "8:_873AF5F94B9BBA1E495DCE0B62B92C6E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1DAD0850357046550D2DE892755CA73E"
+        "OwnerKey" = "8:_9A9C1799C7E2489DA97F182F6992F608"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2991F14A0C9D499D8F607E8B1F54E137"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2BB372B2AB144871BB4FFADA276439B5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2C43EE2EB8A04372BF4C64AECE0F35CC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_30F58780E5AE4269AA4E12EAB566E24C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_380E4BDBB021421192DB54D4C05F0B11"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3A36435ED46149BB9DF6622C766F9383"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3CCE2FF101EB46F188A08F135DF5DC97"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_40A7630C3FDA4DFD8F20C9E1ED3C9C2F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_49DC83F0BFC14E57B5B67D0B83DF21B7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_509610F4839794E2A47949C974C6740E"
+        "OwnerKey" = "8:_873AF5F94B9BBA1E495DCE0B62B92C6E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_509610F4839794E2A47949C974C6740E"
+        "OwnerKey" = "8:_721447AC215037687A3164B69039875A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_509610F4839794E2A47949C974C6740E"
+        "OwnerKey" = "8:_7A491BB295C5DD2946565964A1575CD6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_509610F4839794E2A47949C974C6740E"
+        "OwnerKey" = "8:_9A9C1799C7E2489DA97F182F6992F608"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_509610F4839794E2A47949C974C6740E"
+        "OwnerKey" = "8:_1DAD0850357046550D2DE892755CA73E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_509610F4839794E2A47949C974C6740E"
+        "OwnerKey" = "8:_5DA11A75FDCDC5286DDD6AC8C1E4D514"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_509610F4839794E2A47949C974C6740E"
+        "OwnerKey" = "8:_B0F52B81F529FCD3522D4EF36E2F7582"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_556F3614266743B392FF68973498D761"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5DA11A75FDCDC5286DDD6AC8C1E4D514"
+        "OwnerKey" = "8:_873AF5F94B9BBA1E495DCE0B62B92C6E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5DA11A75FDCDC5286DDD6AC8C1E4D514"
+        "OwnerKey" = "8:_9A9C1799C7E2489DA97F182F6992F608"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5DA11A75FDCDC5286DDD6AC8C1E4D514"
+        "OwnerKey" = "8:_1DAD0850357046550D2DE892755CA73E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5FF043415745417E9A60627D8E245275"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_61A37CFCFE1E4621B274F11F46FB7638"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6319D09D9E184DAD8CDAAA2B897C8344"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_666A5A778D2C4C75B1FEE012DA114D25"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_721447AC215037687A3164B69039875A"
+        "OwnerKey" = "8:_7A491BB295C5DD2946565964A1575CD6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_721447AC215037687A3164B69039875A"
+        "OwnerKey" = "8:_9A9C1799C7E2489DA97F182F6992F608"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_73D77C6FEF774232BEFB8D4AAFD1871B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_770C2DC75832442BB9D8A7D90C6A8DCF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7A491BB295C5DD2946565964A1575CD6"
+        "OwnerKey" = "8:_9A9C1799C7E2489DA97F182F6992F608"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7DD0AE1CEC5B4C53BC34AFB2BEA62E99"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7F2D7F95D45E441A9CAFF92DC8F1F04A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8087FC47F9F44F43BA6B0BA8ADF573EB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_825595561674414CA9372124DBF05B4B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_828A2B357EAD47D38818F40D0222CBDF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_873AF5F94B9BBA1E495DCE0B62B92C6E"
+        "OwnerKey" = "8:_9A9C1799C7E2489DA97F182F6992F608"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_99A0157E474A419C8AF252F8FD471D19"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9A9C1799C7E2489DA97F182F6992F608"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9BA0F877C311405D972ED53C1BB777CD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9E888A76A0E14594A12A3CC6C8929E9C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A0F1ABE10247453F9D0971A8C99BCD84"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A42814E404774093B9813A4096CA1399"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A4F95E23745340B6B4ADADD485969E59"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_ABD36AE9707B4C0CBC6AC3EFCCC406FB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AC19004F819941CCB8F12D28CD592C76"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AE0230EEA7C44836B6C12E357423C6D3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B0F52B81F529FCD3522D4EF36E2F7582"
+        "OwnerKey" = "8:_873AF5F94B9BBA1E495DCE0B62B92C6E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B0F52B81F529FCD3522D4EF36E2F7582"
+        "OwnerKey" = "8:_9A9C1799C7E2489DA97F182F6992F608"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B0F52B81F529FCD3522D4EF36E2F7582"
+        "OwnerKey" = "8:_721447AC215037687A3164B69039875A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B0F52B81F529FCD3522D4EF36E2F7582"
+        "OwnerKey" = "8:_7A491BB295C5DD2946565964A1575CD6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B0F52B81F529FCD3522D4EF36E2F7582"
+        "OwnerKey" = "8:_1DAD0850357046550D2DE892755CA73E"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B378C7380DEF49BCAE61BEF56B8BE681"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B4CF2076E9C34E2091EBE082D72C1328"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B5D600BE7F0648D8B763F3D2340BF103"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BABB4C516F8E432E9EB2523CF173993C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C0EC5ADDA810411BA22E3E45398D6EAE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C8F9162D3FA24898AA2931767C5436AC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D343779DD2D44E97BE6658C9F97E77F5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D73F596D01DA4BBDA321D4A91D659481"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D782102C17674E82A99F1DF83B6854C3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D7FC25F525DD4E0191FAF04921F523D3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D929DB6321124F53B3490AC4D5669EB0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DC6164D44DB84234929F4A649C29083B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DEC44C5305F0443E9A098179C65FD185"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E82A4788380E4678BBBBC952D0228F61"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F039CD238A7D4ECAA20DBFBCFA60AFC0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F50FA12ADF0A45709B417FC2ED95BEAE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F74806E12C704757A321C432366EF958"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F81290D8468E49AF81A948711D44B0FC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FABE1C68C56E4FEE85428C02861BA583"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+    }
+    "Configurations"
+    {
+        "Debug"
+        {
+        "DisplayName" = "8:Debug"
+        "IsDebugOnly" = "11:TRUE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug\\Gravur.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+        "Final"
+        {
+        "DisplayName" = "8:Final"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Final\\Gravur.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+        "Release"
+        {
+        "DisplayName" = "8:Release"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:TRUE"
+        "OutputFilename" = "8:Release\\GravurGIS.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+    }
+    "Deployable"
+    {
+        "File"
+        {
+            "{BA458234-9B71-4F46-8107-E91156377184}:_0BF7A9E1EE83450DB9341DA242D90ED3"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbTools32.ico"
+            "TargetName" = "8:tbTools32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_110E303B0683491E87C109393E41AF58"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbOpen.ico"
+            "TargetName" = "8:tbOpen.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_173D873F6ED24B84AD89903970B085B1"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\minus32.ico"
+            "TargetName" = "8:minus32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_1CAF11F6D11B4AD1BD627774B10C1C9A"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\notfound.ico"
+            "TargetName" = "8:notfound.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{E4F2F62A-3940-4BF5-A031-F7FA98CAAFFA}:_1DAD0850357046550D2DE892755CA73E"
+            {
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Windows.Forms, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac"
+                "ScatterAssemblies"
+                {
+                    "_1DAD0850357046550D2DE892755CA73E"
+                    {
+                    "Name" = "8:System.Windows.Forms.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Windows.Forms.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9ADCDD314A8F4FBB927971CDEDC10348"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_2991F14A0C9D499D8F607E8B1F54E137"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbHelp.ico"
+            "TargetName" = "8:tbHelp.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_2BB372B2AB144871BB4FFADA276439B5"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbCancel.ico"
+            "TargetName" = "8:tbCancel.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_2C43EE2EB8A04372BF4C64AECE0F35CC"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbBack32.ico"
+            "TargetName" = "8:tbBack32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_30F58780E5AE4269AA4E12EAB566E24C"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\toolZoomIn32.ico"
+            "TargetName" = "8:toolZoomIn32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_380E4BDBB021421192DB54D4C05F0B11"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\stLockOpen32.ico"
+            "TargetName" = "8:stLockOpen32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_3A36435ED46149BB9DF6622C766F9383"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbOk32.ico"
+            "TargetName" = "8:tbOk32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_40A7630C3FDA4DFD8F20C9E1ED3C9C2F"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\toolPan.ico"
+            "TargetName" = "8:toolPan.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_49DC83F0BFC14E57B5B67D0B83DF21B7"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\minus.ico"
+            "TargetName" = "8:minus.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{E4F2F62A-3940-4BF5-A031-F7FA98CAAFFA}:_509610F4839794E2A47949C974C6740E"
+            {
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:mscorlib, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac"
+                "ScatterAssemblies"
+                {
+                    "_509610F4839794E2A47949C974C6740E"
+                    {
+                    "Name" = "8:mscorlib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:mscorlib.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9ADCDD314A8F4FBB927971CDEDC10348"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_556F3614266743B392FF68973498D761"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbZoom32.ico"
+            "TargetName" = "8:tbZoom32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{E4F2F62A-3940-4BF5-A031-F7FA98CAAFFA}:_5DA11A75FDCDC5286DDD6AC8C1E4D514"
+            {
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Drawing, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac"
+                "ScatterAssemblies"
+                {
+                    "_5DA11A75FDCDC5286DDD6AC8C1E4D514"
+                    {
+                    "Name" = "8:System.Drawing.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Drawing.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9ADCDD314A8F4FBB927971CDEDC10348"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_61A37CFCFE1E4621B274F11F46FB7638"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbWorldView.ico"
+            "TargetName" = "8:tbWorldView.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_6319D09D9E184DAD8CDAAA2B897C8344"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\plus32.ico"
+            "TargetName" = "8:plus32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_666A5A778D2C4C75B1FEE012DA114D25"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbZoom.ico"
+            "TargetName" = "8:tbZoom.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{E4F2F62A-3940-4BF5-A031-F7FA98CAAFFA}:_721447AC215037687A3164B69039875A"
+            {
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Xml, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac"
+                "ScatterAssemblies"
+                {
+                    "_721447AC215037687A3164B69039875A"
+                    {
+                    "Name" = "8:System.Xml.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Xml.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9ADCDD314A8F4FBB927971CDEDC10348"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_73D77C6FEF774232BEFB8D4AAFD1871B"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbRedo32.ico"
+            "TargetName" = "8:tbRedo32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_770C2DC75832442BB9D8A7D90C6A8DCF"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbOpen32.ico"
+            "TargetName" = "8:tbOpen32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{E4F2F62A-3940-4BF5-A031-F7FA98CAAFFA}:_7A491BB295C5DD2946565964A1575CD6"
+            {
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Data, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac"
+                "ScatterAssemblies"
+                {
+                    "_7A491BB295C5DD2946565964A1575CD6"
+                    {
+                    "Name" = "8:System.Data.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Data.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9ADCDD314A8F4FBB927971CDEDC10348"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_7DD0AE1CEC5B4C53BC34AFB2BEA62E99"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbAddLayer32.ico"
+            "TargetName" = "8:tbAddLayer32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_7F2D7F95D45E441A9CAFF92DC8F1F04A"
+            {
+            "SourcePath" = "8:..\\Gravur\\Misc\\Schema.mwd"
+            "TargetName" = "8:Schema.mwd"
+            "Tag" = "8:"
+            "Folder" = "8:_D024A11D2C004131869E551FF0D43312"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_8087FC47F9F44F43BA6B0BA8ADF573EB"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\stLockOpen.ico"
+            "TargetName" = "8:stLockOpen.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_825595561674414CA9372124DBF05B4B"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbOk.ico"
+            "TargetName" = "8:tbOk.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_828A2B357EAD47D38818F40D0222CBDF"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbSettings.ico"
+            "TargetName" = "8:tbSettings.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{E4F2F62A-3940-4BF5-A031-F7FA98CAAFFA}:_873AF5F94B9BBA1E495DCE0B62B92C6E"
+            {
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Microsoft.WindowsCE.Forms, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac"
+                "ScatterAssemblies"
+                {
+                    "_873AF5F94B9BBA1E495DCE0B62B92C6E"
+                    {
+                    "Name" = "8:Microsoft.WindowsCE.Forms.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Microsoft.WindowsCE.Forms.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9ADCDD314A8F4FBB927971CDEDC10348"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_99A0157E474A419C8AF252F8FD471D19"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbBack.ico"
+            "TargetName" = "8:tbBack.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_9BA0F877C311405D972ED53C1BB777CD"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbCancel32.ico"
+            "TargetName" = "8:tbCancel32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_9E888A76A0E14594A12A3CC6C8929E9C"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbSave32.ico"
+            "TargetName" = "8:tbSave32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_A0F1ABE10247453F9D0971A8C99BCD84"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\notfound32.ico"
+            "TargetName" = "8:notfound32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_A42814E404774093B9813A4096CA1399"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\toolZoomIn.ico"
+            "TargetName" = "8:toolZoomIn.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_A4F95E23745340B6B4ADADD485969E59"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbSave.ico"
+            "TargetName" = "8:tbSave.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_ABD36AE9707B4C0CBC6AC3EFCCC406FB"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\toolPan32.ico"
+            "TargetName" = "8:toolPan32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_AC19004F819941CCB8F12D28CD592C76"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\toolPointer32.ico"
+            "TargetName" = "8:toolPointer32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_AE0230EEA7C44836B6C12E357423C6D3"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\toolPointer.ico"
+            "TargetName" = "8:toolPointer.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{E4F2F62A-3940-4BF5-A031-F7FA98CAAFFA}:_B0F52B81F529FCD3522D4EF36E2F7582"
+            {
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System, Version=3.5.0.0, Culture=neutral, PublicKeyToken=969db8053d3322ac"
+                "ScatterAssemblies"
+                {
+                    "_B0F52B81F529FCD3522D4EF36E2F7582"
+                    {
+                    "Name" = "8:System.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9ADCDD314A8F4FBB927971CDEDC10348"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_B378C7380DEF49BCAE61BEF56B8BE681"
+            {
+            "SourcePath" = "8:..\\Gravur\\data\\gt_ellips.csv"
+            "TargetName" = "8:gt_ellips.csv"
+            "Tag" = "8:"
+            "Folder" = "8:_7986EFB59DA5442DB0BCF8528E1035AD"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_B4CF2076E9C34E2091EBE082D72C1328"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\stLockClosed32.ico"
+            "TargetName" = "8:stLockClosed32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_B5D600BE7F0648D8B763F3D2340BF103"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\toolZoomOut32.ico"
+            "TargetName" = "8:toolZoomOut32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_BABB4C516F8E432E9EB2523CF173993C"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\stLockClosed.ico"
+            "TargetName" = "8:stLockClosed.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_C0EC5ADDA810411BA22E3E45398D6EAE"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\toolZoomOut.ico"
+            "TargetName" = "8:toolZoomOut.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_C8F9162D3FA24898AA2931767C5436AC"
+            {
+            "SourcePath" = "8:..\\Gravur\\gdalce.dll"
+            "TargetName" = "8:gdalce.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_9ADCDD314A8F4FBB927971CDEDC10348"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D343779DD2D44E97BE6658C9F97E77F5"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\plus.ico"
+            "TargetName" = "8:plus.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D73F596D01DA4BBDA321D4A91D659481"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbRedo.ico"
+            "TargetName" = "8:tbRedo.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D782102C17674E82A99F1DF83B6854C3"
+            {
+            "SourcePath" = "8:..\\Gravur\\proj.dll"
+            "TargetName" = "8:proj.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_9ADCDD314A8F4FBB927971CDEDC10348"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D7FC25F525DD4E0191FAF04921F523D3"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbDraw.ico"
+            "TargetName" = "8:tbDraw.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_D929DB6321124F53B3490AC4D5669EB0"
+            {
+            "SourcePath" = "8:..\\Gravur\\data\\gt_datum.csv"
+            "TargetName" = "8:gt_datum.csv"
+            "Tag" = "8:"
+            "Folder" = "8:_7986EFB59DA5442DB0BCF8528E1035AD"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_DC6164D44DB84234929F4A649C29083B"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbHelp32.ico"
+            "TargetName" = "8:tbHelp32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_DEC44C5305F0443E9A098179C65FD185"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbSettings32.ico"
+            "TargetName" = "8:tbSettings32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_E82A4788380E4678BBBBC952D0228F61"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\Folder32.ico"
+            "TargetName" = "8:Folder32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_F039CD238A7D4ECAA20DBFBCFA60AFC0"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbWorldView32.ico"
+            "TargetName" = "8:tbWorldView32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_F50FA12ADF0A45709B417FC2ED95BEAE"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbAddLayer.ico"
+            "TargetName" = "8:tbAddLayer.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_F74806E12C704757A321C432366EF958"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\Folder.ico"
+            "TargetName" = "8:Folder.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_F81290D8468E49AF81A948711D44B0FC"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbDraw32.ico"
+            "TargetName" = "8:tbDraw32.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_FABE1C68C56E4FEE85428C02861BA583"
+            {
+            "SourcePath" = "8:..\\Gravur\\Icons\\tbTools.ico"
+            "TargetName" = "8:tbTools.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_8936AB331F204693B9CCF9B809AEE2F2"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+        }
+        "Folder"
+        {
+            "{F6DFDB62-1DD1-498B-89B7-27BAC542EE5A}:_339C95924D724D02A877BD177CEA4764"
+            {
+            "Name" = "8:#1916"
+            "Condition" = "8:"
+            "Property" = "8:%CE11%"
+                "Folders"
+                {
+                }
+            }
+            "{D5B00AC1-E6C3-4CC5-90FF-8E0F53D9E5E0}:_9ADCDD314A8F4FBB927971CDEDC10348"
+            {
+            "DefaultLocation" = "8:%InstallDir%"
+            "Name" = "8:#1920"
+            "Condition" = "8:"
+            "Property" = "8:%InstallDir%"
+                "Folders"
+                {
+                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_7986EFB59DA5442DB0BCF8528E1035AD"
+                    {
+                    "Name" = "8:data"
+                    "Condition" = "8:"
+                    "Property" = "8:_A4238C51AD1540989E63ED46AFA2B2EC"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_8936AB331F204693B9CCF9B809AEE2F2"
+                    {
+                    "Name" = "8:Icons"
+                    "Condition" = "8:"
+                    "Property" = "8:_0BFA2BD542C44E9687AC308E74BCA4BC"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{5943FCFD-5B64-4EE4-96C9-4618EC95352A}:_D024A11D2C004131869E551FF0D43312"
+                    {
+                    "Name" = "8:Misc"
+                    "Condition" = "8:"
+                    "Property" = "8:_3A6802152DEC4E19B79F166658CEBE04"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
+            "{F6DFDB62-1DD1-498B-89B7-27BAC542EE5A}:_ABA4644239BC4B65B40F7CBE2757188E"
+            {
+            "Name" = "8:#1911"
+            "Condition" = "8:"
+            "Property" = "8:%CE1%"
+                "Folders"
+                {
+                }
+            }
+        }
+        "Product"
+        {
+        "Name" = "8:Microsoft Visual Studio"
+        "ProductName" = "8:GravurGIS"
+        "Manufacturer" = "8:timberNet"
+        "OSVersionMin" = "8:4.0"
+        "OSVersionMax" = "8:6.99"
+        "NoUninstall" = "11:FALSE"
+        "Compress" = "11:FALSE"
+        "CESetupDLL" = "8:"
+        }
+        "ProjectOutput"
+        {
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_3CCE2FF101EB46F188A08F135DF5DC97"
+            {
+            "SourcePath" = "8:..\\Gravur\\MapPanel.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9ADCDD314A8F4FBB927971CDEDC10348"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{DC4A0420-6638-4029-9CDB-B8B3E2B45030}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_5FF043415745417E9A60627D8E245275"
+            {
+            "SourcePath" = "8:..\\Gravur\\Shapelib.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9ADCDD314A8F4FBB927971CDEDC10348"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{5B8BAF51-72DB-4505-89C1-522EB126924A}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{605BE39E-5046-48BD-AEC0-63C3A46626D5}:_9A9C1799C7E2489DA97F182F6992F608"
+            {
+            "SourcePath" = "8:..\\Gravur\\obj\\Final\\GravurGIS.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9ADCDD314A8F4FBB927971CDEDC10348"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:0"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{8B173783-B313-490F-984D-C7C5D7490D80}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+        }
+        "Registry"
+        {
+            "HKLM"
+            {
+                "Keys"
+                {
+                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_6874115DCA924C22AA485F5AEF7E7F8B"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                        "Keys"
+                        {
+                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_02E0F3B4B42F45EBA9390A0536956ED4"
+                            {
+                            "Name" = "8:%Manufacturer%"
+                            "Condition" = "8:"
+                                "Keys"
+                                {
+                                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_050D7C4D3DAA4248966E3A546F783903"
+                                    {
+                                    "Name" = "8:Gravur"
+                                    "Condition" = "8:"
+                                        "Keys"
+                                        {
+                                        }
+                                        "Values"
+                                        {
+                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_F70C4CA393C34230AD1C9B6BE0DC0B81"
+                                            {
+                                            "Name" = "8:Version"
+                                            "Condition" = "8:"
+                                            "ValueTypes" = "3:3"
+                                            "Value" = "3:1"
+                                            }
+                                        }
+                                    }
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKCR"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKPU"
+            {
+                "Keys"
+                {
+                }
+            }
+        }
+        "Shortcut"
+        {
+            "{971D45E9-E38C-49AC-B36E-4C5BEA533350}:_94C64A96E77D4643B37D8FB41488BC9A"
+            {
+            "Name" = "8:GravurGIS"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "Target" = "8:_9A9C1799C7E2489DA97F182F6992F608"
+            "Folder" = "8:_339C95924D724D02A877BD177CEA4764"
+            "WorkingFolder" = "8:_339C95924D724D02A877BD177CEA4764"
+            }
+        }
+    }
+}

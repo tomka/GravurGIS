@@ -1,0 +1,226 @@
+Content-Type: multipart/related; start=<op.mhtml.1192024759620.7c971843375f1ee2@5.152.113.140>; boundary=----------JvKyXRKFRiril5oW1OpGnd
+Content-Location: http://www.remotesensing.org/libtiff/misc.html
+Subject: =?utf-8?Q?=20Acknowledgments=20and=20Other=20Issues=20?=
+MIME-Version: 1.0
+
+------------JvKyXRKFRiril5oW1OpGnd
+Content-Disposition: inline; filename=misc.html
+Content-Type: text/html; name=misc.html
+Content-Id: <op.mhtml.1192024759620.7c971843375f1ee2@5.152.113.140>
+Content-Location: http://www.remotesensing.org/libtiff/misc.html
+Content-Transfer-Encoding: 8bit
+
+<HTML>
+<HEAD>
+<TITLE>
+Acknowledgments and Other Issues
+</TITLE>
+</HEAD>
+<BODY BGCOLOR=white> 
+<FONT FACE="Arial, Helvetica, Sans"> 
+<H1>
+<IMG SRC=images/ring.gif WIDTH=124 HEIGHT=124 ALIGN=left BORDER=1 HSPACE=6>
+Acknowledgments and Other Issues
+</H1>
+
+<P>
+Silicon Graphics has seen fit to allow us to give this work away.  It
+is free.  There is no support or guarantee of any sort as to its
+operations, correctness, or whatever.  If you do anything useful with
+all or parts of it you need to honor the copyright notices.  It would
+also be nice to be acknowledged.<p>
+
+<BR CLEAR=left>
+
+<H2>Acknowledgements</H2>
+
+The libtiff software was written by Sam Leffler while working for
+Silicon Graphics.<p>
+
+The LZW algorithm is derived from the compress program (the proper attribution
+is included in the source code).  The Group 3 fax stuff originated as code
+from Jef Poskanzer, but has since been rewritten several times.  The latest
+version uses an algorithm from Frank Cringle -- consult
+<TT>libtiff/mkg3states.c</TT> and <TT>libtiff/tif_fax3.h</TT> for further
+information. The JPEG support was written by Tom Lane and is dependent on the
+excellent work of Tom Lane and the Independent JPEG Group (IJG) who distribute
+their work under friendly licensing similar to this software. Joris Van Damme
+implemented the robust Old JPEG decoder (as included in libtiff since version
+3.9.0, there was another Old JPEG module in older releases, which was
+incomplete and unsuitable for many existing images of that format). JBIG
+module was written by Lee Howard and depends on JBIG library from the Markus
+Kuhn. Many other people have by now helped with bug fixes and code; a few of
+the more persistent contributors have been:
+
+<PRE>
+    Bjorn P. Brox
+    Dan McCoy
+    J.T. Conklin                
+    Richard Minner
+    Frank D. Cringle        
+    Richard Mlynarik
+    Soren Pingel Dalsgaard  
+    Niles Ritter
+    Steve Johnson           
+    Karsten Spang
+    Tom Lane               
+    Peter Smith
+    Brent Roman            
+    Mike Welles
+    Frank Warmerdam
+    Greg Ward
+    Stanislav Brabec        
+    Roman Shpount
+    Peter Skarpetis        
+    Arvan Pritchard
+    Bernt Herd             
+    Joseph Orost
+    Phil Beffery           
+    Ivo Penzar
+    Francois Dagand        
+    Albert Chin-A-Young
+    Bruce A. Mallett
+    Dwight Kelly
+    Andrey Kiselev
+    Ross Finlayson
+    Dmitry V. Levin
+    Bob Friesenhahn
+    Lee Howard
+    Joris Van Damme
+    Tavis Ormandy
+    Richard Nolde
+</PRE>
+
+(my apology to anyone that was inadvertently not listed.)
+
+<H2>Use and Copyright</H2>
+
+<P><H5><PRE>
+Copyright (c) 1988-1997 Sam Leffler
+Copyright (c) 1991-1997 Silicon Graphics, Inc.
+
+Permission to use, copy, modify, distribute, and sell this software and 
+its documentation for any purpose is hereby granted without fee, provided
+that (i) the above copyright notices and this permission notice appear in
+all copies of the software and related documentation, and (ii) the names of
+Sam Leffler and Silicon Graphics may not be used in any advertising or
+publicity relating to the software without the specific, prior written
+permission of Sam Leffler and Silicon Graphics.
+
+THE SOFTWARE IS PROVIDED "AS-IS" AND WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY 
+WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.  
+
+IN NO EVENT SHALL SAM LEFFLER OR SILICON GRAPHICS BE LIABLE FOR
+ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND,
+OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, AND ON ANY THEORY OF 
+LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE 
+OF THIS SOFTWARE.
+</PRE></H5>
+
+<P>
+<HR>
+
+
+Last updated: $Date: 2007/02/24 15:47:04 $
+</BODY>
+</HTML>
+
+------------JvKyXRKFRiril5oW1OpGnd
+Content-Disposition: inline; filename=ring.gif
+Content-Type: image/gif; name=ring.gif
+Content-Location: http://www.remotesensing.org/libtiff/images/ring.gif
+Content-Transfer-Encoding: Base64
+
+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
+BAA7
+------------JvKyXRKFRiril5oW1OpGnd--

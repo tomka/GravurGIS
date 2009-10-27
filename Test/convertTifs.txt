@@ -1,0 +1,4 @@
+Alle Tifs konvertieren:
+for %z in (*.tif) do gdal_translate.exe -ot Byte -of GTiff -b 1 -co "NBITS=1" -co "COMPRESS=LZW" -co "TILED=YES" %z lzw/%~nz_lzw.tif
+
+gdaladdo für alle:

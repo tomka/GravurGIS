@@ -1,0 +1,1 @@
+int calcPoint(double x0, double y0, int maxIterations);

@@ -1,0 +1,19 @@
+[zu realisierende Funktionen]
+=============================
+
+[x]  - Übernehmen der Farbgebung fuer Shape-Dateien (für gesamte Datei / nach einem Attribut der Attributtabelle)
+	   durch Auslesen der DesktopGis-mwd- bzw. mwl-Datei. (Farbe / Stärke der Außenlinie,
+	   Flüllfarbe, Füllfarbe an/aus, Punktgröße und Farbe)
+[x]  - Veränderung der Anzeigereihenfolge von Layern
+[x]  - ZooomIn- und ZoomOut-Funktion
+[x]  - Zoom auf volle Ausdehnung
+[x]  - Zoom auf einen Layer
+[x]  - Pan-Modus (Bewegen in der Karte durch ziehen auf dem Touchscreen)
+[x]  - Digitalisieren von Geoobjekten in einen ausgewählten, fest definierten Layer
+[x]  - Darstellungsbereich des PDA sollte möglichst vollständig für die Karte zur Verfügung stehen
+[x]  - Layersteuerung in Aufklappmenu
+ 
+[x]  - Wenn GPS-Modul vorhanden anzeigen des aktuellen Standortes und Zoom-Funktion auf diesen sofern das
+	   Umrechnungsproblem von Geographischen Koordinaten nach Gauß-Krüger gelöst werden kann
+[x]  - Vergabe von Attributen zu einem Geoobjekt (nach der Digitalisierung / für ein beliebiges markiertes Geoobjekt)
+[x]  - Laden von Shapedateien und georeferenzierten Rasterdaten

@@ -1,0 +1,617 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8B173783-B313-490F-984D-C7C5D7490D80}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GravurGIS</RootNamespace>
+    <AssemblyName>GravurGIS</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>4118C335-430C-497f-BE48-11C3316B135E</PlatformID>
+    <OSVersion>5.01</OSVersion>
+    <DeployDirSuffix>GravurGIS</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FormFactorID>
+    </FormFactorID>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <NativePlatformName>Windows Mobile 5.0 Pocket PC SDK</NativePlatformName>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <StartupObject>GravurGIS.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;PocketPC, DEVELOP</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <PlatformTarget>x86</PlatformTarget>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Final|AnyCPU' ">
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <OutputPath>bin\Final\</OutputPath>
+    <DefineConstants>TRACE;PocketPC</DefineConstants>
+    <Optimize>true</Optimize>
+    <FileAlignment>512</FileAlignment>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="NPackCF, Version=0.8.15119.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>External References\NPackCF.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\RemoveGeometryAction.cs" />
+    <Compile Include="Actions\MoveGeometryAction.cs" />
+    <Compile Include="Actions\MoveCommentAction.cs" />
+    <Compile Include="Actions\DrawAction.cs" />
+    <Compile Include="Actions\FinishDrawingAction.cs" />
+    <Compile Include="Actions\IAction.cs" />
+    <Compile Include="Actions\MoveIShapeAction.cs" />
+    <Compile Include="Actions\PanAction.cs" />
+    <Compile Include="Actions\RemoveShapeAction.cs" />
+    <Compile Include="Actions\ZoomAction.cs" />
+    <Compile Include="AppExecutionManager.cs" />
+    <Compile Include="CoordCalculator.cs" />
+    <Compile Include="CoordinateSystems\CoordinateType.cs" />
+    <Compile Include="CoordinateSystems\Datum.cs" />
+    <Compile Include="CoordinateSystems\DatumType.cs" />
+    <Compile Include="CoordinateSystems\Ellipsoid.cs" />
+    <Compile Include="CoordinateSystems\HorizontalDatum.cs" />
+    <Compile Include="CoordinateSystems\IDatum.cs" />
+    <Compile Include="CoordinateSystems\IEllipsoid.cs" />
+    <Compile Include="CoordinateSystems\IHorizontalDatum.cs" />
+    <Compile Include="CoordinateSystems\IInfo.cs" />
+    <Compile Include="CoordinateSystems\ILinearUnit.cs" />
+    <Compile Include="CoordinateSystems\Info.cs" />
+    <Compile Include="CoordinateSystems\IUnit.cs" />
+    <Compile Include="CoordinateSystems\LinearUnit.cs" />
+    <Compile Include="CoordinateSystems\Wgs84ConversionInfo.cs" />
+    <Compile Include="Data\ILayerProvider.cs" />
+    <Compile Include="GDALBindings.cs" />
+    <Compile Include="GPS\DegreesMinutesSeconds.cs" />
+    <Compile Include="GPS\DeviceStateChangedEventArgs.cs" />
+    <Compile Include="GPS\GPSControler.cs" />
+    <Compile Include="GPS\GPSControler_Old.cs" />
+    <Compile Include="GPS\GpsDeviceState.cs" />
+    <Compile Include="GPS\GpsPosition.cs" />
+    <Compile Include="GPS\LocationChangedEventArgs.cs" />
+    <Compile Include="GPS\Utils.cs" />
+    <Compile Include="GUI\Controls\AnchorChooser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\ComboBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\LabelEx.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\TextBoxEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\TextBoxEx.Designer.cs">
+      <DependentUpon>TextBoxEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Controls\ToolbarButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\ToolBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\ToolBarEx.Designer.cs">
+      <DependentUpon>ToolBarEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Controls\UserIcon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\DecimalUpDown.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\DecimalUpDown.designer.cs">
+      <DependentUpon>DecimalUpDown.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Controls\Event.cs" />
+    <Compile Include="GUI\Controls\IPropertyItem.cs" />
+    <Compile Include="GUI\Controls\RadioItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\RBContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\ToolTip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\CloseDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\FinishTrackingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\ErrorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\LayerSettingsEditor\MapServerSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\FolderBrowserDialog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\FolderBrowserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\LayerSettingsEditor\ImageSettingEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\LayerSettingsEditor\LayerSettingEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ColorTranslator.cs" />
+    <Compile Include="GUI\Controls\ColorIcon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\PropertyEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\IconBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\PropertyItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\ColorDialog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\CommentDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\Navigator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\OverrideDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\SaveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\IDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Dialogs\SettingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Menus\AddMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Menus\EditGeometryMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Menus\MsLayerMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Menus\UndoMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Menus\ShapeEditMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Menus\DrawMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Menus\FileMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Menus\LayerMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Menus\ToolMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\Controls\ResultButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LayerManager.cs" />
+    <Compile Include="Layer\GPSLayer.cs">
+    </Compile>
+    <Compile Include="Layer\IIdentifyable.cs" />
+    <Compile Include="Layer\ILayer.cs" />
+    <Compile Include="Layer\ImageLayer.cs" />
+    <Compile Include="Layer\ITransportLayer.cs" />
+    <Compile Include="Layer\LabelLayer.cs" />
+    <Compile Include="Layer\Layer.cs" />
+    <Compile Include="Layer\MandelbrotLayer.cs" />
+    <Compile Include="Layer\MapServerLayer.cs" />
+    <Compile Include="Layer\OGRLayer.cs" />
+    <Compile Include="Layer\TransportMultiPointLayer.cs" />
+    <Compile Include="Layer\TransportPolygonLayer.cs" />
+    <Compile Include="Layer\TransportPolylineLayer.cs" />
+    <Compile Include="MainControler.cs" />
+    <Compile Include="MapPanelBindings.cs" />
+    <Compile Include="PlatformInvokeCOREDLL.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlatformInvokeUSER32.cs" />
+    <Compile Include="MapPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MapTools.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Config.cs">
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Rendering\AffineMatrix.cs" />
+    <Compile Include="Rendering\FastBitmap.cs" />
+    <Compile Include="Rendering\Gdi\GdiVectorRenderer.cs" />
+    <Compile Include="Rendering\Gdi\PInvokeVectorRenderer.cs" />
+    <Compile Include="Rendering\IHasEmpty.cs" />
+    <Compile Include="Rendering\IRenderer.cs" />
+    <Compile Include="Rendering\LinearFactory.cs" />
+    <Compile Include="Rendering\Matrix.cs" />
+    <Compile Include="Rendering\MatrixProcessor.cs" />
+    <Compile Include="Rendering\Rendering2D\IVectorRenderer2D.cs" />
+    <Compile Include="Rendering\Rendering2D\Matrix2D.cs" />
+    <Compile Include="Rendering\Rendering2D\Point2D.cs" />
+    <Compile Include="Rendering\Rendering2D\Size2D.cs" />
+    <Compile Include="Rendering\Rendering2D\VectorRenderer2D.cs" />
+    <Compile Include="Rendering\RenderProperties.cs" />
+    <Compile Include="Rendering\RenderState.cs" />
+    <Compile Include="Rendering\Vector.cs" />
+    <Compile Include="Shapes\ShpPolygon.cs" />
+    <Compile Include="Shapes\ShpPolyline.cs" />
+    <Compile Include="Shapes\ShpPoint.cs" />
+    <Compile Include="Styles\GeometryStyle.cs" />
+    <Compile Include="Styles\HorizontalAlignment.cs" />
+    <Compile Include="Styles\IStyle.cs" />
+    <Compile Include="Styles\LabelStyle.cs" />
+    <Compile Include="Styles\LineDashCap.cs" />
+    <Compile Include="Styles\LineDashStyle.cs" />
+    <Compile Include="Styles\NewLayerStyle\SpecificColorStyle.cs" />
+    <Compile Include="Styles\NewLayerStyle\INewLayerStyle.cs" />
+    <Compile Include="Styles\NewLayerStyle\RandomColorStyle.cs" />
+    <Compile Include="Styles\SolidStyleBrush.cs" />
+    <Compile Include="Styles\Style.cs" />
+    <Compile Include="Styles\StyleBrush.cs" />
+    <Compile Include="Styles\StyleColor.cs" />
+    <Compile Include="Styles\StyleLineCap.cs" />
+    <Compile Include="Styles\StyleLineJoin.cs" />
+    <Compile Include="Styles\StylePenAlignment.cs" />
+    <Compile Include="Styles\SylePen.cs" />
+    <Compile Include="Styles\VerticalAlignment.cs" />
+    <Compile Include="ToolbarMaker.cs" />
+    <Compile Include="Topology\PointL.cs" />
+    <Compile Include="Topology\Grid\Grid.cs" />
+    <Compile Include="Topology\DRect.cs" />
+    <Compile Include="Topology\PointD.cs" />
+    <Compile Include="Topology\PointList.cs" />
+    <Compile Include="Topology\Quadtree\QuadTree.cs" />
+    <Compile Include="Layer\ShapeObject.cs" />
+    <Compile Include="Shapes\IShape.cs">
+    </Compile>
+    <Compile Include="Topology\Vector2.cs" />
+    <Compile Include="Topology\WorldBoundingBoxD.cs" />
+    <Compile Include="Utilities\Helpers.cs" />
+    <Compile Include="Utilities\HookKeys.cs" />
+    <Compile Include="Utilities\NotifyIcon.cs" />
+    <Compile Include="Utilities\Tolerance.cs" />
+    <Compile Include="Win32Helper.cs" />
+    <Compile Include="WndProcHooker.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GUI\Controls\DecimalUpDown.resx">
+      <DependentUpon>DecimalUpDown.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Dialogs\CommentDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CommentDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Dialogs\CloseDialog.resx">
+      <DependentUpon>CloseDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Dialogs\FolderBrowserForm.resx">
+      <DependentUpon>FolderBrowserForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Dialogs\LayerSettingsEditor\ImageSettingEditor.resx">
+      <DependentUpon>ImageSettingEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Dialogs\LayerSettingsEditor\LayerSettingEditor.resx">
+      <DependentUpon>LayerSettingEditor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Dialogs\Navigator.resx">
+      <DependentUpon>Navigator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Dialogs\OverrideDialog.resx">
+      <DependentUpon>OverrideDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Dialogs\SaveDialog.resx">
+      <DependentUpon>SaveDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Icons\stLockOpen.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbBack.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbAddLayer.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbHelp.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbOpen.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbSave.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbSettings.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbTools.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbZoom.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbWorldView.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbDraw.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbCancel.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbOk.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\toolPan.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\toolZoomIn.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\toolZoomOut.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\toolPointer.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\stLockClosed.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\Folder.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\minus.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\plus.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Icon.ico" />
+    <Content Include="Data\gt_datum.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\gt_ellips.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Pflichtenheft.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GUI\Dialogs\FinishTrackingDialog.resx">
+      <DependentUpon>FinishTrackingDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Dialogs\ErrorDialog.resx">
+      <DependentUpon>ErrorDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Dialogs\InputDialog.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Dialogs\LayerSettingsEditor\MapServerSettings.resx">
+      <DependentUpon>MapServerSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Dialogs\SettingDialog.resx">
+      <DependentUpon>SettingDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Icons\notfound.ico" />
+    <Content Include="Icons\Folder32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\minus32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Icons\notfound32.ico" />
+    <Content Include="Icons\plus32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\stLockClosed32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\stLockOpen32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbAddLayer32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbBack32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbCancel32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbDraw32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbHelp32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbOk32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbOpen32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbRedo32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbSave32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbSettings32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbTools32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbWorldView32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\tbZoom32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\toolPan32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\toolPointer32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\toolZoomIn32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\toolZoomOut32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\update.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icons\update32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Misc\Schema.mwd">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v1.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.v1.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v2.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v3.5'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MSBuildCommunityTasks\MSBuild.Community.Tasks.Targets" />
+  <PropertyGroup>
+    <major>1</major>
+    <minor>1</minor>
+    <build>0</build>
+    <revision>0</revision>
+  </PropertyGroup>
+  <Target Name="Version">
+    <svnversion localpath="$(MSBuildProjectDirectory)">
+      <Output TaskParameter="Revision" PropertyName="Revision" />
+    </svnversion>
+    <message text="Revision: $(Revision)" />
+    <message text="Project File Name = $(MSBuildProjectFileName)" />
+    <message text="Project Extension = $(MSBuildProjectExtension)" />
+    <message text="Project Directory = $(MSBuildProjectDirectory)" />
+    <message text="Bin Path = $(MSBuildBinPath)" />
+    <message text="Extensions Path = $(MSBuildExtensionsPath)" />
+    <message text="Version: $(Major).$(Minor).$(Build).$(Revision)" />
+    <AssemblyInfo codelanguage="CS" outputfile="$(MSBuildProjectDirectory)\Properties\AssemblyInfo.cs" assemblytitle="GravurGIS" assemblydescription="" assemblyconfiguration="" assemblycompany="timberNet Solutions" assemblyproduct="GravurGIS" assemblycopyright="Copyright timberNet 2008" assemblytrademark="" assemblyculture="" comvisible="false" GUID="FAE04EC0-301F-11D3-BF4B-00C04F79EFBC" assemblyversion="$(Major).$(Minor).$(Build).$(Revision)" />
+    <CreateProperty value="$(Major).$(Minor).$(Build).$(Revision)">
+      <Output TaskParameter="Value" PropertyName="ApplicationVersion" />
+    </CreateProperty>
+    <CreateProperty Value="$(Revision)">
+      <Output TaskParameter="Value" PropertyName="ApplicationRevision" />
+    </CreateProperty>
+    <message text="ApplicationVersion: $(ApplicationVersion)" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+	Other similar extension points exist, see Microsoft.Common.targets.-->
+  <Target Name="BeforeBuild">
+    <CallTarget Targets="Version" />
+  </Target>
+  <Target Name="AfterBuild">
+    <message text="ApplicationVersion: $(ApplicationVersion)" />
+  </Target>
+</Project>

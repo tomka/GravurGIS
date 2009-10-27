@@ -1,0 +1,23 @@
+Folgendes ist in den entsprechenden Schlüssel einzutragen.
+Gibt es einen Schlüssel noch nicht, muss er angelegt werden.
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\GPS Intermediate Driver]
+DWROD: 	"IsEnabled"			=	1
+String: "CurrentLogFile"	=	"GPDID_log.txt"
+String: "OldLogFile"		=	"OldGPSID_log.txt"
+DWROD:	"MaxLogFileSize"	=	32768
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\GPS Intermediate Driver\Drivers]
+String: "CurrentDriver"		=	"FileDriver"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\GPS Intermediate Driver\Drivers\FileDriver]
+String: "InterfaceType"		=	"File"
+String: "FriendlyName"		=	"Testdatei"
+String: "File1"				=	"\GPSTest.txt"
+DWROD:	"MinReadSize"		=	120
+DWROD:	"MaxReadSize"		=	120
+DWROD:	"ReadInterval"		=	1000
+DWROD:	"Iterations"		=	1
+
+
+Der sonst aktivierte Triber ist: "Control Panel Configured Device"
